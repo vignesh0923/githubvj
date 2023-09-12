@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #21344d;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-container{
+    padding: 30px;
+    width: 80%;
+    background-color: #0e1320;
+    height: 40%;      
+    color: white;
+}
+
+.input-feild{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid #6be9fb 2px;
+    width: 80%;
+    font-size: larger;
+    color: white;
+}
+.input-feild:focus{
+    outline: none;
+}
+
+label{
+    display: block;
+    font-size: smaller;
+    color: #c08570;
+    visibility: hidden;
+}
+
+i{
+    visibility: hidden;
+}
+
+.feild-submit{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: transparent;
+    border: solid #6be9fb 2px;
+    margin-top: 10px;
+    color: #6be9fb;
+    transition: 2s;
+}
+
+.feild-submit:hover{
+    background-color: #6be9fb;
+    color: #0e1320;
+}
+
+.popup{
+    position: absolute;
+    background-color: #6be9fb;
+    padding: 10px;
+    top: -40px;
+    left: 40%;
+    opacity: 0;
+    transition: 2s;
+
+}
